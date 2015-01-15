@@ -1,0 +1,6 @@
+*kate-swp
+*f3333000*yaml
+.kateproject.d/
+*.swp
+*.settings
+*.project
