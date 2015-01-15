@@ -1,0 +1,42 @@
+{
+  "name": "mkrakowitzer-dashing",
+  "version": "0.0.1",
+  "author": "mkrakowitzer",
+  "summary": "A module to install / configure dashing",
+  "license": "MIT",
+  "source": "https://github.com/mkrakowitzer/puppet-dashing",
+  "project_page": "https://github.com/mkrakowitzer/puppet-dashing",
+  "issues_url": "https://github.com/mkrakowitzer/puppet-dashing/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.0.0"
+    },
+    {
+      "name": "ploperations/bundler",
+      "version_requirement": ">= 1.0.1"
+    },
+    {
+      "name": "puppetlabs/ruby",
+      "version_requirement": ">= 0.4.0"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=3.4.0 <4.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ]
+}
